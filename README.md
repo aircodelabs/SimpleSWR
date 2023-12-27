@@ -19,10 +19,11 @@ npm i simple-swr
 
 ```javascript
 // Example of using SimpleSWR
-import { simpleSWR } from 'simple-swr';
+import simpleSWR from 'simple-swr';
 
-// Fetch data with caching
-const data = await simpleSWR.get('/api/example');
+// Fetch response with caching
+const response = await simpleSWR.get('/api/example');
+const data = response.data;
 ```
 
 ### Parameters

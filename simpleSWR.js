@@ -19,12 +19,9 @@ const simpleSWR = (() => {
 
       try {
         const response = await axios.get(url);
-        if (response && response.data) {
-          urlObjs[url] = {
-            response: response.data,
-            lastUpdated: now
-          };
-          return response.data;
+        if (response) {
+          urlObjs[url] = { response, lastUpdated: now };
+          return response;
         }
       } catch (error) {
         throw error;
