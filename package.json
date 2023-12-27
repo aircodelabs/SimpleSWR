@@ -1,6 +1,6 @@
 {
   "name": "simple-swr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SimpleSWR is a lightweight and efficient caching adapter for Axios.",
   "main": "simpleSWR.js",
   "repository": "https://github.com/AirCodeLabs/SimpleSWR",
