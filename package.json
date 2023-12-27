@@ -1,14 +1,24 @@
 {
-  "name": "simpleSWR",
+  "name": "simple-swr",
   "version": "1.0.0",
   "description": "SimpleSWR is a lightweight and efficient caching adapter for Axios.",
   "main": "simpleSWR.js",
   "repository": "https://github.com/AirCodeLabs/SimpleSWR",
-  "keywords": ["axios", "swr", "cache", "http", "pinia swr", "vue swr"],
+  "keywords": [
+    "axios",
+    "swr",
+    "cache",
+    "http",
+    "pinia swr",
+    "vue swr"
+  ],
   "author": "Neo <n@aircode.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AirCodeLabs/SimpleSWR/issues"
   },
-  "homepage": "https://github.com/AirCodeLabs/SimpleSWR"
+  "homepage": "https://github.com/AirCodeLabs/SimpleSWR",
+  "dependencies": {
+    "axios": "^1.6.3"
+  }
 }

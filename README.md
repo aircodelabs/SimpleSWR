@@ -12,14 +12,14 @@ Because of its simplicity, it can be used in a variety of repositories for data 
 ## Installation
 
 ```
-npm i simpleSWR
+npm i simple-swr
 ```
 
 ## Quick Start
 
 ```javascript
 // Example of using SimpleSWR
-import { simpleSWR } from 'simpleSWR';
+import { simpleSWR } from 'simple-swr';
 
 // Fetch data with caching
 const data = await simpleSWR.get('/api/example');

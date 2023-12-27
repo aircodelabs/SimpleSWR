@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const simpleSWR = (() => {
   // The default cache validity period is 8 hours
   let cacheDuration = 1000 * 60 * 60 * 8;
