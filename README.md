@@ -1,5 +1,5 @@
 # SimpleSWR
-SimpleSWR is a lightweight and efficient caching adapter for Axios, implementing the Stale While Revalidate (SWR) strategy. It's designed to enhance the performance of HTTP requests by caching responses and revalidating them in the background.
+SimpleSWR is a lightweight and efficient caching adapter for Axios (A simple Axios cache), implementing the Stale While Revalidate (SWR) strategy. It's designed to enhance the performance of HTTP requests by caching responses and revalidating them in the background.
 
 Because of its simplicity, it can be used in a variety of repositories for data state management, including Vue's Pinia.
 
